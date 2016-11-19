@@ -1,4 +1,4 @@
-package hello;
+package se.onlinesoppa.rest;
 
 /**
  * Created by Morgan on 2016-11-19.

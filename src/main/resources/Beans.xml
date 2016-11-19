@@ -15,7 +15,7 @@
 
     <!-- Definition for JDBC bean -->
     <bean id="studentJDBCTemplate"
-          class="hello.StudentJDBCTemplate">
+          class="se.onlinesoppa.DBObject.student.StudentJDBCTemplate">
         <property name="dataSource"  ref="dataSource" />
     </bean>
 
