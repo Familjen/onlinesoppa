@@ -17,7 +17,7 @@ public class Application {
         StudentJDBCTemplate studentJDBCTemplate =
                 (StudentJDBCTemplate)context.getBean("studentJDBCTemplate");
 
-        studentJDBCTemplate.create("Zara", 11);
+        studentJDBCTemplate.create("Greta", 111);
 
         SpringApplication.run(Application.class, args);
     }
