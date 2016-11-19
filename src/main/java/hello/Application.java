@@ -13,6 +13,11 @@ public class Application {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("Beans.xml");
 
+        StudentJDBCTemplate studentJDBCTemplate =
+                (StudentJDBCTemplate)context.getBean("studentJDBCTemplate");
+
+        studentJDBCTemplate.create("Zara", 11);
+
         SpringApplication.run(Application.class, args);
     }
 }
