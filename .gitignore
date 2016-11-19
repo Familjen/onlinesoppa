@@ -52,7 +52,7 @@ local.properties
 
 # intellij stuff
 .idea
-*.iml
+**.iml
 
 # Tern plugin
 .tern-project
