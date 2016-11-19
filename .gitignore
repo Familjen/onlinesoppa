@@ -50,6 +50,9 @@ local.properties
 # sbteclipse plugin
 .target
 
+# intellij stuff
+.idea
+
 # Tern plugin
 .tern-project
 
