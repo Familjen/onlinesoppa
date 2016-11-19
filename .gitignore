@@ -53,6 +53,7 @@ local.properties
 # intellij stuff
 .idea
 
+
 # Tern plugin
 .tern-project
 
